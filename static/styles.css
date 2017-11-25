@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    background-color: #cdcdcd;
+    font-family: 'Trebuchet', sans-serif;
+}
+
+h1 {
+    border-bottom: 2px solid #732667;
+}
+
+h3 {
+  display: block;
+  clear:both;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    padding: 2px;
+}
+input {
+  font-size: 1.03em;
+}
+
+.pane {
+    max-width: 800px;
+    margin: 30px auto;
+    border-color: #1a1a1a;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.el {
+    background-color: #fff;
+    border: 1px solid lightgray;
+
+    text-align: center;
+    padding: 5vh;
+    margin: 10px;
+    border: 1px solid white;
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
+}
+
+.price {
+    text-align: right;
+    width: 50%;
+    float: right;
+}
+
+.header {
+  text-align: center;
+  color: #fff;
+}
+
+.flash {
+  display: inline-block;
+  color: #E8C547;
+  background: #cee5f5;
+}
+
+.h3 {
+  display: inline-block;
+}
+
+.editdeletepane {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+.editdelete {
+  padding: 5px;
+  margin: 15px 5px 5px 5px;
+  background: #f5cbdc; /* Old browsers */
+  background: -moz-linear-gradient(top, #f5cbdc 0%, #f8d6e6 50%, #f8d2e4 51%, #fbe7f1 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f5cbdc 0%,#f8d6e6 50%,#f8d2e4 51%,#fbe7f1 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f5cbdc 0%,#f8d6e6 50%,#f8d2e4 51%,#fbe7f1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  flex-grow: 1;
+  flex-basis: 30%;
+  border: 1px solid white;
+  box-shadow: 8px 8px 15px -5px rgba(0,0,0,0.75);
+  text-align: center;
+}
+
+.editdelete:hover {
+  background: #fbedf3; /* Old browsers */
+  background: -moz-linear-gradient(top, #fbedf3 0%, #fcf0f6 50%, #fceef5 51%, #fdf7fa 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #fbedf3 0%,#fcf0f6 50%,#fceef5 51%,#fdf7fa 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #fbedf3 0%,#fcf0f6 50%,#fceef5 51%,#fdf7fa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  border: 1px solid #732667;
+  box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.75);
+}
